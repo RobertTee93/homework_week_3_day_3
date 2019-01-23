@@ -35,6 +35,15 @@ album2 = Album.new({
 
 album2.save()
 
+album3 = Album.new({
+  "name" => "Divide",
+  "genre" => "Pop",
+  "release_year" => "2017",
+  "artist_id" => artist2.id
+  });
+
+album3.save()
+
 # artist1.name = "Marshall Mathers"
 # artist1.update() #-- Working
 # album2.name = "Encore"
